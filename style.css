@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    margin: 0;
+}
+body {
+    font-size: 15pt;
+   
+}
+textarea{
+    width: 85%;
+    font-family: "PT Serif" ;
+    }
+#lang , #play,#rate,#pitch{
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    height: 45px;
+    text-align: center;
+}
+#rate, #pitch{
+  appearance: none;
+  height: 7px;
+  border-radius: 30px;
+  background: #FFD3D3;
+  outline: none;
+  border: 1px solid #6B0101;
+}
+#rate::-webkit-slider-thumb,#pitch::-webkit-slider-thumb{
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    transform: rotate(45deg);
+    border-radius: 45%;
+    background: #E86767;
+    border: 1px solid #6B0101;
+}
+footer{
+    background: #181717;
+    color: #9B9797;
+    font-weight: 300;
+    margin-top: 20%;
+}
+select{
+    font-family: "Pt Serif";
+}
+nav{
+    font-family: Bangers;
+    text-align: center;
+}
